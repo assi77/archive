@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #6990f2;
+} 
+.uploader{
+	width: 430px;
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+}
+.uploader header{
+	color: #6990f2;
+	font-size: 27px;
+	font-weight: 600;
+	text-align: center;
+}
+.uploader .uploadfile{
+	height: 167px;
+	display: flex;
+	margin: 30px 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 5px;
+	border: 2px dashed #6990f2;
+
+}
+p{
+	color: #6990f2;
+}
+form .row{
+	background: #e9f0ff;
+	margin-bottom: 10px;
+	list-style: none;
+	padding: 15px 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+button{
+	border-radius: 3px;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	background: #6990f2;
+	position: relative;
+	margin-left: 35%;
+}
